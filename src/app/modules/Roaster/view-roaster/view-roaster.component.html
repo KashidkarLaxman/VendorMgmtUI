@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Ticron</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Add_Roaster">Create Roaster</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="View_Roaster">View Roaster</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Update_Roaster">Edit Roaster</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav><div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='date' class="form-control" />
+                    <span>
+                        <span >hhh</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>

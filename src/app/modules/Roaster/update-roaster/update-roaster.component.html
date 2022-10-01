@@ -1,0 +1,81 @@
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Ticron</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Add_Roaster">Create Roaster</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="View_Roaster">View Roaster</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Update_Roaster">Edit Roaster</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+  <div class="container col md-7">
+    <div class="card m-5">
+        <div class="card-header">Enter Vendor</div>
+    <form>
+
+        <div class="form-row m-3">
+            <div class="col-1">
+                <label for="Roaster Detail" >Roaster Detail :</label>
+                </div>
+            <div class="col">
+                <input type="text" class="form-control input-sm" placeholder="Enter Roster Detail" name="RDetail">
+                </div>
+        </div>
+        <div class="form-row m-3">
+            <div class="col-1">
+                <label for="Route Number" >Route Number :</label>
+                </div>
+            <div class="col">
+                <input type="text" class="form-control input-sm" placeholder="Enter Route Number" name="RNumber">
+                </div>
+        </div>
+
+
+        
+            <div class="form-row m-3">
+                <div class="col-1">
+                    <label for="From" >From :</label>
+                    </div>
+                <div class="col-5">
+                    <input type="text" class="form-control input-sm" placeholder="Enter Pickup point" name="FAddress">
+                    </div>
+                    <div class="col-1">
+                        <label for="TO" >To :</label>
+                        </div>
+                    <div class="col-5">
+                        <input type="text" class="form-control input-sm" placeholder="Enter Droping point" name="TAddress">
+                        </div>
+            </div>
+            <div class="form-row m-3">
+                <div class="col-1">
+                    <label for="From" >From  Details:</label>
+                    </div>
+                <div class="col-5">
+                    <input type="text" class="form-control input-sm" placeholder="Enter Pickup Details" name="FAddress">
+                    </div>
+                    <div class="col-1">
+                        <label for="TO" >To Details:</label>
+                        </div>
+                    <div class="col-5">
+                        <input type="text" class="form-control input-sm" placeholder="Enter Droping Details" name="TAddress">
+                        </div>
+            </div>
+      </form>
+      <div class="card-footer text-center">
+          <button id="submit" type="submit" class="btn-primary btn-lg mr-5" value="Submit">  Submit   </button>
+          <button id="submit" type="reset" class="btn-primary btn-lg" value="Submit">  Reset  </button>
+        </div>
+    </div>
+</div>
+
+
